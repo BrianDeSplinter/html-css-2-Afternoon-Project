@@ -7,6 +7,7 @@ width: 100%;
 a:link{
     text-decoration: none;
 }
+a:hover {text-decoration: underline;}
 
 .top{
     height: 80px;
@@ -30,7 +31,7 @@ a:link{
     font-size: 14px;
     line-height: 16px; 
 }
-a:hover {text-decoration: underline;}
+
 
 #about-links{
     color: lightgray;
@@ -50,6 +51,16 @@ a:hover {text-decoration: underline;}
     align-items: flex-end;
 }
 
+.photo a{
+    color: white;
+    font-size:30px;
+    font-weight: bold;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 20px;
+    position: absolute;
+}
+
 #starship-photo{
     height: 700px;
     width: 1300px; 
@@ -63,6 +74,7 @@ a:hover {text-decoration: underline;}
     opacity: .7;
     position: absolute;
     z-index: 2;
+    
 }
 
 
@@ -78,11 +90,11 @@ a:hover {text-decoration: underline;}
 }
 
 .learn-more h1{
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 18px;
+    line-height: 20px;
     color:#4b5256;
     text-align: center;
-    font-weight: normal;
+    font-weight: 600;
     margin-top: 50px;  
     word-wrap: unset;    
 }
@@ -97,7 +109,28 @@ a:hover {text-decoration: underline;}
 .more div{
     height: 250px;
     width: 300px;
-    background-color: chartreuse;
+    background-color: white;
     margin: 25px;
     margin-top: 50px;
+    box-shadow: 1px 1px 2px 1px rgb(197, 207, 218);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+
+.more div a{
+    color: #4b5256;
+    font-weight: 600;
+    }
+
+#learn-more{
+    color: rgb(58, 151, 209);
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 100;
+    
 }

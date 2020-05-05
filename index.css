@@ -1,0 +1,103 @@
+body{font-family: brandon-grotesque, sans-serif;
+font-style: normal;
+font-weight: 400;
+overflow-x: hidden;
+width: 100%;
+}
+a:link{
+    text-decoration: none;
+}
+
+.top{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    position: sticky;
+}
+.pages{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#page-links{
+    color: white;
+    font-size: 14px;
+    line-height: 16px; 
+}
+a:hover {text-decoration: underline;}
+
+#about-links{
+    color: lightgray;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 200;
+    
+}
+
+
+
+.photo{
+    height:400px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+#starship-photo{
+    height: 700px;
+    width: 1300px; 
+    z-index: 1; 
+}
+
+.caption{
+    height: 135px;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+.learn-more{
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+}
+
+.learn-more h1{
+    font-size: 14px;
+    line-height: 16px;
+    color:#4b5256;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 50px;  
+    word-wrap: unset;    
+}
+
+.more{
+   display: flex;
+   justify-content: center;
+   overflow: hidden;
+   min-width: 1000px;
+}
+
+.more div{
+    height: 250px;
+    width: 300px;
+    background-color: chartreuse;
+    margin: 25px;
+    margin-top: 50px;
+}
